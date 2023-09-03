@@ -15,7 +15,7 @@ body {
 }
 
 /*Navigation*/
-a {
+#main-nav a {
     text-decoration: none;
     background: #e344c8;
     color: black;
