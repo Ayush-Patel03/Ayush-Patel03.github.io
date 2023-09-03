@@ -1,5 +1,52 @@
+/*Structure*/
 body {
     background-color: chartreuse;
     font-family: Arial, Helvetica, sans-serif;
     color: #e344c8;
+}
+
+/*Navigation*/
+a {
+    text-decoration: none;
+    background: #e344c8;
+    color: black;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+a:hover {
+    background: blueviolet;
+}
+
+/*Tables*/
+
+table {
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #e344c8;
+    padding: 4px;
+}
+
+th {
+    background: #D62F70;
+}
+
+td {
+    background: #ED4640;
+}
+
+/*Typography*/
+h1 {
+    color: blueviolet;
+}
+h2 {
+    color: greenyellow;
+}
+
+/*Images*/
+img {
+    border:5px solid #ED4640;
+    border-radius: 5px;
 }
