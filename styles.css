@@ -24,7 +24,7 @@ body {
     margin-bottom: 5px;
 }
 
-a:hover {
+#main-nav a:hover {
     background: blueviolet;
 }
 
