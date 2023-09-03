@@ -1,0 +1,75 @@
+/*Structure*/
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 15px;
+    background:url(lamboBackround.jpeg)
+}
+
+#content {
+    background: rgba(90, 90, 90, 0.95);
+    width: 95%;
+    margin: auto;
+    padding: 5px 15px;
+    border-radius: 5px;
+   
+}
+
+/*Navigation*/ 
+
+#main-nav a {
+    text-decoration: none;
+    background: yellow;
+    color: black;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+#main-nav a:hover {
+    background: red;
+}
+
+
+/*Tables*/
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th, td{
+    border: 1px solid yellow;
+    padding: 6px;
+    color: black;
+}
+
+th {
+    background: gray;
+}
+
+td {
+    background: red;
+}
+
+/*Typography*/
+h1 {
+    color: yellow;
+}
+h2 {
+    color: yellow;
+}
+#c-things {
+    font-style: italic;
+}
+.big {
+    font-size: 20px;
+}
+
+/*Images*/ 
+img {
+    border:5px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}

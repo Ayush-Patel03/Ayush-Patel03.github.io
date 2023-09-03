@@ -5,6 +5,15 @@ body {
     color: #e344c8;
 }
 
+#content {
+    background: rgba(90, 90, 90, 0.95);
+    width: 95%;
+    margin: auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+   
+}
+
 /*Navigation*/
 a {
     text-decoration: none;
@@ -12,6 +21,7 @@ a {
     color: black;
     padding: 4px;
     border-radius: 3px;
+    margin-bottom: 5px;
 }
 
 a:hover {
