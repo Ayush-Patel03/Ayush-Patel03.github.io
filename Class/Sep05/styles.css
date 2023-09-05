@@ -62,4 +62,13 @@ body {
     #main-nav li{
         display: inline-block;
     }
+
+    .columns{
+        display: flex;
+    }
+
+    .collof2{
+        flex: 1;
+    }
 }
+
