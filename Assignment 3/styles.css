@@ -83,7 +83,8 @@ body {
 /*Larger Resolutions*/
 @media (min-width: 900px){
     #main-nav ul,
-    .columns {
+    .columns,
+    .images {
         display: flex;
     }
 
