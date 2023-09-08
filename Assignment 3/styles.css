@@ -1,15 +1,17 @@
 /*Structure*/
 
 body {
-    background-color: lightskyblue;
+  
 }
 
 #main-header{
-    background-color: aqua;
+    border: 2px solid palevioletred;
+    background: lightgreen;
 }
 
+
 #main-content{
-    background-color: blue;
+    
 }
 
 #main-footer{
@@ -24,15 +26,23 @@ body {
 }
 
 .collof3{
-    background-color: forestgreen;
     padding: 5px;
     margin: 5px;
     border-radius: 2px;
 }
 
+#images {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
 .padded-area {
+    display: block;
     padding: 5px;
     margin: auto;
+   
 }
  
 .info {
@@ -40,9 +50,17 @@ body {
     background: lightgreen;
 }
 
+#columns {
+    background-color: blue;
+}
+
 .info header{
-    background-color: plum;
+    
     margin:auto;
+}
+
+#side {
+    background-color: chartreuse;
 }
 
 /* Main navigation*/
@@ -66,6 +84,14 @@ body {
     border-bottom: 1px solid red;
 }
 
+#side {
+    background-color: blue;
+}
+
+#ic {
+    border: 2px;
+}
+
 
 /*Typography*/
 body {
@@ -76,8 +102,12 @@ body {
     text-align: center;
 }
 
-#main-footer p{
+#main-footer p, h2{
     text-align: center;
+}
+
+.right {
+    text-align: right;
 }
 
 /*Larger Resolutions*/
@@ -91,6 +121,14 @@ body {
     #main-nav li,
     .collof2,
     .collof3 {
+        flex: 1;
+    }
+
+    #content {
+        flex: 2;
+    }
+    
+    #side {
         flex: 1;
     }
 }

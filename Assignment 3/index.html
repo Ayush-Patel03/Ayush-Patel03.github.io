@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <title>Markers</title>
+    <title>Assignment 3</title>
     <link rel="stylesheet" href="styles.css"
 </head>
 
 <body>
-    <header id="main-header" class="padded-area">
-        <h1>My Main Heading</h1>
+    <header id="main-header" class="padded-area" class="columns">
+        <h1>Practicing Flexbox Alignment</h1>
         <nav id="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -22,8 +22,23 @@
 
     <main id="main-content" class="padded-area">
         
-        <div class="content">
-
+        <div class="columns" class="padded-area" >
+            <section class="content">
+                <h1>Main Content</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus
+                    lacus augue. Duis sed tincidunt sapien. Praesent suscipit urna dui,
+                    viverra congue tellus consequat vitae. Vestibulum blandit sem vitae
+                </p>
+            </section>
+            <aside class="side">
+                <h1>Sidebar</h1>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </aside>
         </div>
 
 
@@ -36,16 +51,14 @@
                 <h1>First Section</h1>
             </header>
 
-            <p>text here wow first box </p>
-
             <div class="columns">
-                <section class="callof3">
+                <section class="callof3" class="ic">
                     <h4>Column 1</h4>
                 </section>
-                <section class="callof3">
+                <section class="callof3" class="ic">
                     <h4>Column 2</h4>
                 </section> 
-                <section class="callof3">
+                <section class="callof3" class="ic">
                     <h4>Column 3</h4>
                 </section>  
             </div>
@@ -57,16 +70,14 @@
                 <h1>Second Section</h1>
             </header>
 
-            <p>text here wow this is diff</p>
-
             <div class="columns">
-                <section class="callof3">
+                <section class="callof3" class="ic">
                     <h4>Column 1</h4>
                 </section>
-                <section class="callof3">
+                <section class="callof3" class="ic">
                     <h4>Column 2</h4>
                 </section> 
-                <section class="callof3">
+                <section class="callof3" class="ic">
                     <h4>Column 3</h4>
                 </section>  
             </div>
@@ -87,7 +98,9 @@
     </main>
 
     <footer id="main-footer" class="padded-area">
-        <p>Goodbye </p>
+        <h2>Footer</h2>
+        <p>Copywrite</p>
+        <p id="right">123 Anywhere st. Columbia, SC</p>
     </footer>
 </body>
 
