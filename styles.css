@@ -6,8 +6,8 @@ body {
     background:url(cocky.png)
 }
 
-#content {
-    background: rgba(255, 255, 255, 0.95);
+#main-header {
+    background: rgba(255, 255, 255, 0.9);
     width: 95%;
     margin: auto;
     padding: 10px 15px;
@@ -15,45 +15,50 @@ body {
    
 }
 
+.assignments {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 10px;
+}
+
+.assignments p {
+    padding: 15px;
+}
+
+.columns{
+    display: flex;
+}
+
+.assignments{
+    flex: 1;
+}
+
 /*Navigation*/
-#main-nav a {
-    text-decoration: none;
-    background: #e344c8;
-    color: black;
-    padding: 4px;
-    border-radius: 3px;
-    margin-bottom: 5px;
-}
-
-#main-nav a:hover {
-    background: blueviolet;
-}
-
-/*Tables*/
-
-table {
-    border-collapse: collapse;
-}
-
-th, td{
-    border: 1px solid #e344c8;
-    padding: 4px;
-}
-
-th {
-    background: #D62F70;
-}
-
-td {
-    background: #ED4640;
-}
 
 /*Typography*/
+#main-header h1 {
+    text-align: center;
+}
+
 h1 {
     color: blueviolet;
 }
 h2 {
-    color: darkgreen;
+    background: rgba(255, 255, 255, 0.9);
+    color: purple;
+}
+
+.padded-area {
+    padding: 5px;
+    margin: auto;
+}
+
+.assignments h1, h2 {
+    text-align: center;
+}
+
+#name {
+    padding-left: 0px;
+    padding-top: 0px;
 }
 
 /*Images*/
@@ -62,7 +67,30 @@ img {
     border-radius: 5px;
 }
 
-/*List*/
-ol li{
-    line-height: 30px;
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
+
+/*Larger Resolutions*/
+@media only screen and(min-width: 600px) {
+    #main-nav li{
+        display: inline-block;
+    }
+
+    .columns{
+        display: flex;
+    }
+
+    .assignments{
+        flex: 1;
+    }
+}
+
+@media (max-width: 700px) {
+    .columns {
+      flex-direction: column;
+    }
+  }
