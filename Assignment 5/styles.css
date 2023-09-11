@@ -9,6 +9,7 @@ body {
     width: 100%;
     background-color: black;
     padding: 5px;
+    margin-top: 0px;
 }
 
 #main-footer {
@@ -42,6 +43,15 @@ body {
 #footer-top {
     background-color: darkred;
 }
+
+div {
+    margin: auto;
+    
+}
+
+.temp {
+    margin: auto;
+} 
 
 /*Typography*/
 
@@ -80,6 +90,11 @@ a {
 
 .footer-logo-text {
     font-size: 40px;
+}
+
+#user-nav {
+    color: white;
+    text-align: right;
 }
 
 
