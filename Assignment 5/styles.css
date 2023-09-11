@@ -6,22 +6,59 @@ body {
 
 #main-header {
     margin: auto;
-    width: 80%;
+    width: 100%;
     background-color: black;
     padding: 5px;
 }
 
 #main-footer {
     margin: auto;
-    width: 80%;
+    width: 100%;
     background-color: darkred;
     padding: 5px;
 }
 
+#research {
+    margin: auto;
+    width: 80%;
+}
+
+#user-nav {
+    background-color: darkred;
+}
+
+#split1, #split5 {
+    background-color: darkred;
+}
+
+#split2 {
+    background-color: black;
+}
+
+#split7 {
+    background-color: darkcyan;
+}
+
+#footer-top {
+    background-color: darkred;
+}
+
 /*Typography*/
 
+#split1 ,#split2, #split5, #split7{
+    color: white;
+}
+
+#split3 h1, #split6 h1 {
+    color: darkred;
+}
+
 h1 {
-    text-align: center;
+    text-align: left;
+}
+
+a {
+    color: white;
 }
 
 #main-footer, 
@@ -72,7 +109,7 @@ h1 {
 /*Larger Resolution*/
 
 @media only screen and (min-width: 768px) {
-    .hor-nav ul, .flex-container {
+    .hor-nav ul, .flex-container, #split1, #split2, #split3, #split5, #split6, #split7, #split9{
         display: flex;
 
     }
@@ -91,11 +128,15 @@ h1 {
 
 
 
-    .flex-container {
+    .flex-container{
         justify-content: space-between;
     }
 
     .collof2 {
+        flex: 1;
+    }
+
+    .splitof2 {
         flex: 1;
     }
 
