@@ -1,0 +1,97 @@
+/*backround*/
+#square {
+    --num: 0%;
+    background: linear-gradient(0deg, red var(--num), white var(--num) 100%);
+    width: 100px;
+    height: 300px;
+}
+
+
+
+
+
+.columns {
+    background: pink;
+    margin: 30px;
+}
+
+#man {
+     --x: 0px;
+    position: relative;
+    left: var(--x);
+}
+
+/*structure*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+
+.padded-area {
+    padding: 5px;
+    margin: auto;
+}
+
+#exercise1 {
+    margin: 30px;
+    
+    
+}
+
+/*navigation*/
+
+
+/*typography*/
+#main-nav-items {
+    font-size: 1.2em
+}
+
+.hidden {
+    display: none;
+}
+
+/*Forms*/
+
+label,
+input {
+    display: inline;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    padding: 5px;
+}
+
+/*Larger resolution*/
+@media (min-width:900px) {
+    #main-nav-items {
+        display: flex;
+    }
+
+    #main-nav-items li {
+        flex: 1;
+    }
+
+    #main-nav-items a {
+        border-bottom: 2px solid transparent;
+    }
+
+    #main-nav-items a:hover {
+        border-bottom: 2px solid coral;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    .columns{
+        display: flex;
+    }
+
+    #exercise1, #exercise2 {
+        flex: 1;
+    }
+}

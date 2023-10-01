@@ -53,11 +53,7 @@ const color = () => {
     }
 }
 
-const exone = () => {
-    document.getElementById("exercise2").classList.add("hidden");
-    document.getElementById("exercise1").classList.remove("hidden");
- 
-}
+
 const extwo = () => {
     document.getElementById("exercise1").classList.add("hidden");
     document.getElementById("exercise2").classList.remove("hidden");

@@ -30,7 +30,8 @@ body {
 }
 
 .assignments{
-    flex: 1;
+    flex: 20%;
+    flex-grow: 0;
 }
 
 /*Navigation*/
@@ -85,6 +86,6 @@ img {
 
 @media (max-width: 700px) {
     .columns {
-      flex-direction: column;
+      flex: 20%;
     }
   }
