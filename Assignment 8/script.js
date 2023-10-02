@@ -1,22 +1,39 @@
-
-
-var width = 0;
 const run = () => {
-    for (let i = 0; i < 40; i++) {
-        
+    let count = 0;
+    var width = 0;
+    let p = document.querySelector("#count");
+
+    const updateCount = setInterval(() => {
+        count++;
         width+=10;
         document.getElementById("man").style.setProperty("--x", width + "px");
 
-        setTimeout(function(){
-            console.log(i);
-          }, 3000 * i)
-    }
-    console.log(width);
+        if (count >= 25) {
+            clearInterval(updateCount);
+        }
+    }, 1000);
 }
 
-const interval = setInterval(() => {
+const fill = () => {
+    const dollars = parseInt(document.getElementById("txt-funds").value);
+    let count = 0;
+    var fill = 0;
+    var r = document.querySelector(':root');
+    var rs = getComputedStyle(r);
+    let p = document.querySelector("#count");
+    var per = dollars/100;
+    const updateCount = setInterval(() => {
+        count++;
+        fillh++;
+        document.getElementById("square").style.setProperty("--num", per +"%");
 
-}, 5000);
+        if (count >= per) {
+            clearInterval(updateCount);
+        }
+    }, 1000);
+}
+
+
 
 const color = () => {
     const dollars = parseInt(document.getElementById("txt-funds").value);
@@ -27,6 +44,8 @@ const color = () => {
     var per = dollars/100;
     document.getElementById("square").style.setProperty("--num", per +"%");
 }
+
+
 
 window.onload = () => {
     document.getElementById("man").onclick = run;
