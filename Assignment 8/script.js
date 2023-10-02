@@ -8,7 +8,7 @@ const run = () => {
         width+=10;
         document.getElementById("man").style.setProperty("--x", width + "px");
 
-        if (count >= 25) {
+        if (count >= 35) {
             clearInterval(updateCount);
         }
     }, 1000);
