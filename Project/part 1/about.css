@@ -1,0 +1,55 @@
+/*backround*/
+#top-body {
+    background-color: gray;
+    text-align: center;
+}
+#main-body {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+/*structure*/
+
+/*typography*/
+#topp, #botp {
+    text-align: center;
+}
+/*header*/
+
+/* Main navigation*/
+#main-header {
+    display: inline-flex;
+}
+
+
+#main-nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+#main-nav ul{
+    padding-left: 0px;
+    text-align: right;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: black;
+    border: 2px;
+    border-radius: 2px;
+}
+
+#main-nav a:hover{
+    border-bottom: 1px solid red;
+}
+
+/*Larger resolution*/
+@media (min-width:900px) {
+    #main-body, #main-body2, #topp, #botp{
+        display: flex;
+    }
+    .two, .three{
+        flex: 1;
+    }
+
+}
