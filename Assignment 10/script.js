@@ -37,8 +37,7 @@ window.onload = () => {
     toys.push(new Toy("Pop", "75", "1-5", 4, "pop.jpeg"));
     toys.push(new Toy("Unicorn", "75", "1-5", 4, "uni.jpeg"));
     toys.push(new Toy("Woody", "75", "1-5", 4, "woody.jpeg"));
-    toys.push(new Toy("yoco", "75", "1-5", 4, "buzz.jpeg"));
-    toys.push(new Toy("woco", "75", "1-5", 4, "buzz.jpeg"));
+
 
 
     for (let i in toys) {
