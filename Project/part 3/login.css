@@ -3,18 +3,23 @@
     background-color: gray;
     text-align: center;
 }
-#main-body {
-    background-color: lightgrey;
+
+#login {
+    background-color: gray;
+}
+/*structure*/
+#login {
     text-align: center;
 }
-head {
-    background: navy;
-}
-
-/*structure*/
 
 /*typography*/
 #topp, #botp {
+    text-align: center;
+}
+#main-body2 h1{
+    text-align: center;
+}
+#body h1{
     text-align: center;
 }
 /*header*/
@@ -44,6 +49,10 @@ head {
 
 #main-nav a:hover{
     border-bottom: 1px solid red;
+}
+
+.center {
+    text-align: center;
 }
 
 /*Larger resolution*/
