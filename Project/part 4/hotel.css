@@ -13,11 +13,20 @@
 }
 
 /*structure*/
+.form {
+    text-align: center;
+
+}
 
 /*typography*/
 #topp, #botp {
     text-align: center;
 }
+
+.hidden {
+    display: none;
+}
+
 /*header*/
 
 /* Main navigation*/
