@@ -51,7 +51,8 @@
                 <p><img src="images/forsale.png" alt="Managing Staff" class="image"></p>
             </section>
         </div>
-        <Div id="contact">
+      
+ <!--        <Div id="contact">
             <div id="form">
                 <h1>Contact Us</h1>
                 <div id="row1">
@@ -74,6 +75,49 @@
                 </div>
                 <button type="submit" id="button-display">Send</button>
             </div>
+-->        
+            <main id="main" class="container">
+                <div class="row">
+                   <div class="col-xs-12 col-lg-offset-3 col-lg-6">
+                      <div class="m-b-md text-center">
+                         <h1 id="title">Contact Us</h1>
+                      </div>
+                      <form method="GET" action="" id="survey-form" name="survey-form">
+                         <fieldset>
+                            <label for="name" id="name-label">
+                            First Name: 
+                            <input class="" type="text" id="name" name="name" placeholder="Enter your name (required)" required />
+                            </label>
+                                                                 <label for="name" id="name-label">
+                            Last Name: 
+                            <input class="" type="text" id="Lname" name="Lname" placeholder="Enter your last name (required)" required />
+                            </label>
+                         </fieldset>
+                         <fieldset>
+                            <label for="email" id="email-label">
+                            Email *
+                            <input class="" type="email" id="email" name="email" placeholder="Enter your email (required)" required />
+                            </label>
+                         </fieldset>
+                         <fieldset>
+                            <label for="number" id="number-label">
+                            Phone Number
+                            <input class="" type="number" id="pnumber" name="pnumber" min="1111111111" max="9999999999" placeholder="Enter your phone number" required />
+                            </label>
+                   
+                         </fieldset>
+                         <fieldset>
+                            <label for="survey-form-suggestions">
+                            Description:
+                            <textarea id="survey-form-suggestions" maxlength="194"></textarea>
+                            </label>
+                         </fieldset>
+                         <button id="submit" type="submit" class="btn">Send</button>
+                      </form>
+                      
+                   </div>
+                </div>
+             </main>
         </Div>
     </body>
     <footer>
