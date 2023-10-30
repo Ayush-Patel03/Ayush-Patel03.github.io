@@ -42,11 +42,11 @@ const getMovieItem= (movie)=>{
     section3.append(h3);
     let ul = document.createElement("ul");
     section3.append(ul);
-    ul.append(getLi(movie.director));
-    ul.append(getLi(`Notable cast: ${movie.actors}`));
-    ul.append(getLi(`Year made: ${movie.year}`));
+    ul.append(getLi(`Director: ${movie.director}`));
+    ul.append(getLi(`Actors: ${movie.actors}`));
+    ul.append(getLi(`Year released: ${movie.year}`));
     ul.append(getLi(`Genres: ${movie.genres}`));
-    ul.append(getLi(`Description: ${movie.description}`));
+    ul.append(getLi(movie.description));
 
 
    let img = document.createElement("img");
