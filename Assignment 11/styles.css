@@ -1,0 +1,51 @@
+/* Define a class for the movie section */
+.section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: red;
+}
+
+img {
+    border: 5px solid #555;
+    margin: 5px;
+   
+}
+
+/* Define a class for the image container */
+.img-flexing {
+    flex: 1; 
+}
+
+/* Define a class for the text container */
+.p-flex {
+    flex: 8; 
+    padding: 10px;
+}
+
+/* title */
+h3 {
+    font-size: 1.5em;
+    margin: 15px;
+}
+
+/* backround */
+body {
+    background: darkred;
+}
+
+/* image */
+.img-sizer {
+    max-width: 100%;
+
+    height: auto;
+    display: block;
+    
+}
+
+.img-sizer:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
