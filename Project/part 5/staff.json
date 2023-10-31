@@ -1,0 +1,25 @@
+{
+    "staff": [
+      {
+        "name": "John Smith",
+        "position": "CEO",
+        "description": "John is a determined, analytical, and reliable individual with a strong work ethic. He excels in problem-solving and is a dedicated team player, consistently contributing to his professional and personal growth."
+      },
+      {
+        "name": "Jenny James",
+        "position": "CFO",
+        "description": "Jenny is an ambitious, creative, and compassionate individual. She possesses a keen intellect and a deep passion for art, using her talents to inspire and connect with others."
+      },
+      {
+        "name": "Raj Patel",
+        "position": "COO",
+        "description": "Raj is a charismatic and driven professional with a knack for problem-solving. His leadership skills and dedication to his work make him a valuable asset in any team or organization."
+      },
+      {
+        "name": "Karen Blatt",
+        "position": "CRO",
+        "description": "Karen is a dedicated professional known for her unwavering commitment to her work. She is a skilled problem-solver, a loving mother, and an active community volunteer, making a positive impact in various spheres of life."
+      }
+    ]
+  }
+  
