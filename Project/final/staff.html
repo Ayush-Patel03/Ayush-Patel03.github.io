@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff</title>
+    <link rel="stylesheet" href="staff.css">
+    <script src="staff.js"></script>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>Apsilon Hotels</h1>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sales.html">Sales</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="top-body">
+        <div class="container">
+            <h2>Managing Staff</h2>
+        </div>
+    </section>
+
+    <section id="staff-list">
+        <div id="staff-list"></div>
+        <div id="staff-details-column">
+            <h2>Details</h2>
+            <div id="staff-details"></div>
+        </div>
+
+    </section>
+
+    <section id="staff-form">
+        <div class="container">
+            <h2>Add/Edit Staff Members</h2>
+            <form id="add-edit-staff-form" method="post">
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="position">Position:</label>
+                <input type="text" id="position" name="position" required>
+
+                <label for="description">Description:</label>
+                <input type="text" id="Description" name="Description" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <nav id="footer-nav">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Member</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

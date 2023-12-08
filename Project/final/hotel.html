@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="hotel.css">
+    <script src="hotel.js"></script>
+
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>Apsilon Hotels</h1>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sales.html">Sales</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="top-body">
+        <div class="container">
+            <h1>MANAGING PROPERTIES</h1>
+            <h2>Hotels</h2>
+        </div>
+    </section>
+
+    <section id="hotel-list">
+        <div id="hotel-list"></div>
+    </section>
+
+    <section id="add-hotel">
+        <div class="container">
+            <h2>Add Hotels</h2>
+            <form id="form-hotel">
+                <label for="property-name">Property Name:</label>
+                <input type="text" id="property-name" required>
+                <label for="location">Location:</label>
+                <input type="text" id="location" required>
+                <label for="rate">Rate:</label>
+                <input type="text" id="rate" required>
+                <label for="phone-number">Phone Number:</label>
+                <input type="text" id="phone-number" required>
+                <label for="description">Description:</label>
+                <textarea id="description" required></textarea>
+                <button type="submit">ADD</button>
+                <section class="hidden" id="results">
+                    <p>Hotel added!</p>
+                </section>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <nav id="footer-nav">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Member</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
